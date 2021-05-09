@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 .kave{
     color: #1f5b25;
-    border: 1px solid #1f5b25;
-    border-radius: 4px;
     margin-bottom: 1rem;
+    border: 1px solid #1f5b25;
+    border-radius: 0,5px;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    background-color: white;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
     color: #1f5b25;
     text-align: center;
+}
+.hatter{
+    background-color: #fbefdb;
 }
