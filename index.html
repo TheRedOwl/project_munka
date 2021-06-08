@@ -9,52 +9,65 @@
     <title>Document</title>
 </head>
 <body class="hatter">
-    <nav class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <a class="logo" href="#">Lucky <img src="img/clover.svg" alt="clover"></a>
-                <a href="#">Főoldal</a>
-                <a href="#">Kávéfajták</a>
-                <a href="#">Sütemények</a>
-                <a href="#">Blog</a>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Lucky</a>
+        <img src="./img/clover.svg" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Főoldal <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kávéfajták</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sütemények</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <div class="banner"></div>
     <div class="container">
         <h1 class="my-4">Lucky kávézó</h1>
         <div class="row">
-            <div class="col-lg-4 betu">
+            <div class="col-lg-4 col-md-6 col-12 text-center betu">
+                <img src="./img/sunflower.svg" alt="sunflower" id="napiajanlat" class="logo">
                 <div class="kave">
                     <img src="./img/Coffee.png" alt="" class="img-fluid">
                     <h2>Espresso</h2>
                 </div>
             </div>
-            <div class="col-lg-4 betu">
+            <div class="col-lg-4 col-md-6 col-12 text-center betu">
                 <div class="kave">
                     <img src="./img/Americano-min.png" alt="" class="img-fluid">
                     <h2>Americano</h2>
                 </div>
             </div>
-            <div class="col-lg-4 betu">
+            <div class="col-lg-4 col-md-6 col-12 text-center betu">
                 <div class="kave">
                     <img src="./img/Cappucino-min.png" alt="" class="img-fluid">
                     <h2>Cappuccino</h2>
                 </div>
             </div>
-            <div class="col-lg-4 betu">
+            <div class="col-lg-4 col-md-6 col-12 text-center betu">
                 <div class="kave">
                     <img src="./img/Cortado-min.png" alt="" class="img-fluid">
                     <h2>Cortado</h2>
                 </div>
             </div>
-            <div class="col-lg-4 betu">
+            <div class="col-lg-4 col-md-6 col-12 text-center betu">
                 <div class="kave">
                     <img src="./img/Frappe-min.png" alt="" class="img-fluid">
                     <h2>Frappe</h2>
                 </div>
             </div>
-            <div class="col-lg-4 betu">
+            <div class="col-lg-4 col-md-6 col-12 text-center betu">
                 <div class="kave">
                     <img src="./img/Latte_Machiato-min.png" alt="" class="img-fluid">
                     <h2>Latte Machiato</h2>
@@ -69,18 +82,17 @@
                     <h2>Kapcsolat</h2>
                     <ul>
                         <li>
-                            <img src="/img/mail.svg" alt="Lucky Kávézó">
-                        </li>
+                            <img src="./img/mail.svg" alt="">Lucky Kávézó</li>
                         <li>
-                            <img src="/img/at.svg" alt="lucky@kavezo.hu">
-                        </li>
+                            <img src="./img/at.svg" alt="">lucky@kavezo.hu</li>
                         <li>
-                            <img src="/img/phone.svg" alt="+36-1-555-55-55">
-                        </li>
+                            <img src="./img/phone.svg" alt="">+36-1-555-55-55</li>
                     </ul>
                 </div>
             </div> 
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>

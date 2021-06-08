@@ -3,10 +3,13 @@
     color: #1f5b25;
     margin-bottom: 1rem;
     border: 1px solid #1f5b25;
-    border-radius: 0,5px;
+    border-radius: 0.5px;
     text-align: center;
     margin-top: 1rem;
     background-color: white;
+}
+.kave>img{
+    width: 100%;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
@@ -30,26 +33,14 @@ h1{
     box-shadow: 0 0 5px #1f5b25;
     cursor:pointer;
 }
-nav{
-    background-color: #1f5b25;
-    padding: 15px;
-    position: fixed;
-    z-index: 1;
-}
-nav a{
-    color: white;
-    margin: 15px;
-}
-nav a:hover{
-    text-decoration: none;
-    color: white;
-}
-nav a.logo{
-    font-size: 1.5em;
-}
+
 nav img{
     width: 40px;
 }
+.navbar{
+    background-color: #1f5b25;
+}
+
 .banner{
     background-image: url("./img/banner.jpg");
     height: 400px;
@@ -65,4 +56,10 @@ footer li>img{
 }
 footer li{
     list-style-type: none;
+}
+#napiajanlat{
+    position: absolute;
+    width: 30px;
+    right:20px;
+    top:20px;
 }
