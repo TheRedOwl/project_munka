@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-.kave{
+.card{
     color: #1f5b25;
     margin-bottom: 1rem;
     border: 1px solid #1f5b25;
@@ -8,7 +8,7 @@
     margin-top: 1rem;
     background-color: white;
 }
-.kave>img{
+.card>img{
     width: 100%;
 }
 h1{
@@ -21,6 +21,7 @@ h1{
 }
 .betu{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
 }
 .jobb{
     margin-right: 3rem;
@@ -29,7 +30,7 @@ h1{
     width: 20px;
     height: 20px;
 }
-.kave:hover{
+.card:hover{
     box-shadow: 0 0 5px #1f5b25;
     cursor:pointer;
 }

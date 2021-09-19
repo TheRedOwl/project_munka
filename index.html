@@ -35,44 +35,56 @@
     <div class="banner"></div>
     <div class="container">
         <h1 class="my-4">Lucky kávézó</h1>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12 text-center betu">
+        <div class="row justify-content-center">
+            <a class="nav-link text-center" href="">
+                <div class="card betu" style="width: 18rem;">
                 <img src="./img/sunflower.svg" alt="sunflower" id="napiajanlat" class="logo">
-                <div class="kave">
-                    <img src="./img/Coffee.png" alt="" class="img-fluid">
-                    <h2>Espresso</h2>
+                    <img class="card-img-fluid" src="./img/Coffee.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text">Espresso</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 text-center betu">
-                <div class="kave">
-                    <img src="./img/Americano-min.png" alt="" class="img-fluid">
-                    <h2>Americano</h2>
+            </a>
+            <a class="nav-link text-center" href="" >
+                <div class="card betu" style="width: 18rem;">
+                    <img class="card-img-fluid" src="./img/Americano-min.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text">Americano</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 text-center betu">
-                <div class="kave">
-                    <img src="./img/Cappucino-min.png" alt="" class="img-fluid">
-                    <h2>Cappuccino</h2>
+            </a>
+            <a class="nav-link text-center" href="" >
+                <div class="card betu" style="width: 18rem;">
+                    <img class="card-img-fluid" src="./img/Cappucino-min.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text">Cappuccino</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 text-center betu">
-                <div class="kave">
-                    <img src="./img/Cortado-min.png" alt="" class="img-fluid">
-                    <h2>Cortado</h2>
+            </a>
+            <a class="nav-link text-center" href="" >
+                <div class="card betu" style="width: 18rem;">
+                    <img class="card-img-fluid" src="./img/Cortado-min.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text">Cortado</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 text-center betu">
-                <div class="kave">
-                    <img src="./img/Frappe-min.png" alt="" class="img-fluid">
-                    <h2>Frappe</h2>
+            </a>
+            <a class="nav-link text-center" href="" >
+                <div class="card betu" style="width: 18rem;">
+                    <img class="card-img-fluid" src="./img/Frappe-min.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text">Frappe</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-12 text-center betu">
-                <div class="kave">
-                    <img src="./img/Latte_Machiato-min.png" alt="" class="img-fluid">
-                    <h2>Latte Machiato</h2>
+            </a>
+            <a class="nav-link text-center" href="" >
+                <div class="card betu" style="width: 18rem;">
+                    <img class="card-img-fluid" src="./img/Latte_Machiato-min.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text">Latte Machiato</p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <div class="footer">
@@ -87,6 +99,20 @@
                             <img src="./img/at.svg" alt=""> lucky@kavezo.hu</li>
                         <li>
                             <img src="./img/phone.svg" alt=""> +36-1-555-55-55</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4 offset-lg-1">
+                    <h2>Kávé Magazin</h2>
+                    <ul>
+                        <p>Iratkozzon fel a kávémagazinunkra!</p>
+                        <form action="">
+                            <div class="input-group mb-3">
+                                <input id="email" class="form-control" type="text" placeholder="E-mail" aria-label="E-mail" aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button id="button-addon2" class="btn btn-success" type="button" onclick="feliratkozas();">Feliratkozom</button>
+                                </div>
+                            </div>
+                        </form>
                     </ul>
                 </div>
             </div> 
